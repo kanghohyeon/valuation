@@ -65,11 +65,11 @@
 
     <build>
         <!--메인 위치 인식-->
-        <sourceDirectory>backend/src/main/java</sourceDirectory>
-        <testSourceDirectory>backend/src/test/java</testSourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
         <resources>
             <resource>
-                <directory>backend/src/main/resources</directory>
+                <directory>src/main/resources</directory>
             </resource>
         </resources>
 
