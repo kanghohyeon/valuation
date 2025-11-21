@@ -1,14 +1,17 @@
 import { BrowserRouter } from "react-router-dom";
 import { ToastContainer } from 'react-toastify';
-import './App.css'
+import './css/App.css'
 import AppRoute from "./routes/AppRoute.tsx";
+import "./css/common.css";
 
 function App() {
   return (
-      <BrowserRouter>
-          <AppRoute/>
-          <ToastContainer position={"top-center"}/>
-      </BrowserRouter>
+      <div className="app-wrapper">
+          <BrowserRouter>
+              <AppRoute/>
+              <ToastContainer position={"top-center"}/>
+          </BrowserRouter>
+      </div>
   )
 }
 

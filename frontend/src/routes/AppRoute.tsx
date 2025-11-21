@@ -1,6 +1,6 @@
 import {Routes, Route} from "react-router-dom";
-import LoginPage from "../pages/LoginPage.tsx";
-import HomePage from "../pages/HomePage.tsx";
+import LoginPage from "../pages/common/LoginPage.tsx";
+import HomePage from "../pages/common/HomePage.tsx";
 
 
 export default AppRoute
