@@ -1,11 +1,14 @@
-import LoginPage from './pages/LoginPage.tsx'
+import { BrowserRouter } from "react-router-dom";
+import { ToastContainer } from 'react-toastify';
 import './App.css'
+import AppRoute from "./routes/AppRoute.tsx";
 
 function App() {
   return (
-    <>
-        <LoginPage/>
-    </>
+      <BrowserRouter>
+          <AppRoute/>
+          <ToastContainer position={"top-center"}/>
+      </BrowserRouter>
   )
 }
 
